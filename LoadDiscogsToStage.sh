@@ -1,0 +1,2 @@
+mysql -uold_man -precords -e "LOAD DATA LOCAL INFILE '/home/old_man/tsd/AccountLoad/PayPal.csv' INTO TABLE rawPayPal FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;" proto
+mysql -uold_man -precords -e "LOAD DATA LOCAL INFILE '/home/old_man/tsd/AccountLoad/Stripe.csv' INTO TABLE rawStripe FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;" proto
