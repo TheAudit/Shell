@@ -1,4 +1,6 @@
 #!/bin/bash
+clear
+
 ConnectChoice=$(whiptail --title "Menu example" --menu "Choose an option" 25 78 16 \
 "1" "Connect to VPN." \
 "2" "Connect to VPN (UK)." \
