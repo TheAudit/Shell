@@ -91,5 +91,3 @@ fi
 
 whiptail --msgbox "Completed tagging" 10 50
 
-
-kill -9 $PPID
